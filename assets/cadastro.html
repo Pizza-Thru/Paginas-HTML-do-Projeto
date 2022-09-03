@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/menuDropDown.js"></script>
+    <title>Seja um franqueado</title>
+</head>
+
+<body>
+    <!--Inicio do cabeçalho-->
+    <header class="menu-principal__header">
+      <div class="conteiner">
+          <div class="menu-principal-conteiner__logo">
+              <h1 class="menu-principal__logo">Pizza Thru</h1>
+          </div>
+          <div class="menu-principal-conteiner__carrinho__login">
+              <a href="#" class="menu-principal-lista__carrinho"><img src="./assets/img/carrinho-de-compras.png"
+                      alt="Ícone carrinho de compras"></a>
+              <a href="#" class="menu-principal-lista__login"><img src="./assets/img/iconelogin.png"
+                      alt="Ícone de login"></a>
+          </div>
+          <nav class="nav-principal__header">
+              <button class="menu-principal__btn" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu-principal__links"
+                  aria-expanded="false">
+                  <span class="hamburger"></span>
+              </button>
+              <ul class="menu-principal__links" id="menu-principal__links" role="menu">
+                  <li class="menu-principal-segunda__lista"><a href="#">STATUS DO PEDIDO</a></li>
+                  <li class="menu-principal-segunda__lista"><a href="#">CADASTRO</a></li>
+                  <li class="menu-principal-segunda__lista"><a href="#">MONTE SUA PIZZA</a></li>
+                  <li class="menu-principal-segunda__lista"><a href="#">FEEDBACK</a></li>
+                  <li class="menu-principal-segunda__lista"><a href="#">CARDÁPIO</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+    <!--Fim do cabeçalho-->
+    <main>
+        <section class="section-banner">
+            <img class="img-banner" src="./assets/img/banner-Principal.png" alt="Banner da Pizza Thru">
+        </section>
+        <div class="consulta-ordem">
+          <section class="section-titulo">
+            <h1 class="h1-titulo">Cadastre-se</h1>
+          </section>
+          <section class="section-dados">
+              <form class="form-dados">
+                <div class="input-group">
+                  <label class="form-dados__label" for="nome">Nome*</label>
+                  <input class="form-dados__input" type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+                </div>
+    
+                <div class="input-group">  
+                  <label class="form-dados__label" for="cpf">CPF*</label>
+                  <input class="form-dados__input" type="text" id="cpf" name="cpf" required placeholder="XXX.XXX.XXX-XX">
+                </div>
+    
+                <div class="input-group">
+                  <label class="form-dados__label" for="telefone">Telefone*</label>
+                  <input class="form-dados__input" type="text" id="telefone" name="telefone" required placeholder="(XX)XXXXX-XXXX">
+                </div>
+            
+                <div class="input-group">  
+                  <label class="form-dados__label" for="email">E-mail*</label>
+                  <input class="form-dados__input" type="email" id="email" name="email" required placeholder="seuemail@email.com">
+                </div>
+    
+                <div class="input-group">
+                  <label class="form-dados__label" for="logradouro">Logradouro*</label>
+                  <input class="form-dados__input" type="text" id="logradouro" name="logradouro" required placeholder="Rua/Av - Nº">
+                </div> 
+                
+                <div class="input-group">
+                  <label class="form-dados__label" for="bairro">Bairro*</label>
+                  <input class="form-dados__input" type="text" id="bairro" name="bairro" required placeholder="Nome do Bairro">
+                </div>
+                
+                <div class="input-group">
+                  <label class="form-dados__label" for="cidade">Cidade*</label>
+                  <input class="form-dados__input" type="text" id="cidade" name="cidade" required placeholder="Nome da cidade">
+                </div>   
+                
+                <div class="input-group">
+                  <label class="form-dados__label" for="estado">Estado*</label>
+                  <input class="form-dados__input" type="text" id="estado" name="estado" required placeholder="Nome do estado">
+                </div>   
+              </form>
+    
+            <div class="button-group">
+              <button class="button-cadastrar">Cadastre-se</button>
+            </div> 
+          </section>    
+        </div> 
+      </main> 
+      <footer>
+        <!--Inicio do Rodapé-->
+        <div class="conteiner">
+            <div class="footer-conteiner__endereco">
+                <div class="container_endereco">
+                    <p>123 Demo Street - New York NY | (555) 555-5555 | email@example.com</p>
+                </div>
+                <nav>
+                    <ul class="footer-nav__links">
+                        <li class="footer-nav__lista"><img src="./assets/img/instagramicon.png"
+                                alt="Ícone do Instagram"></li>
+                        <li class="footer-nav__lista"><img src="./assets/img/twittericon.png" alt="Ícone do Twitter">
+                        </li>
+                        <li class="footer-nav__lista"><img src="./assets/img/facebookicon.png" alt="Ícone do Facebook">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+      </footer>
+    <!--Fim do Rodapé-->
+</body>
