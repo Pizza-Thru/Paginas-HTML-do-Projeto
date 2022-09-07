@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <script defer src="../js/menuDropDown.js"></script>
-
     <title>Pizza Thru</title>
 </head>
 
 <body>
-    <!--Inicio do Header Principal-->
     <header class="menu-principal__header">
         <div class="conteiner">
             <div class="menu-principal-conteiner__logo">
@@ -43,45 +41,56 @@
     </header>
     <!--Fim do Header-->
     <!--Inicio Banner-->
-    <main  class="conteiner">
-        <section class="l-banner-principal">
-            <img src="../img/banner-Acompanhe-seu-pedido.png" alt="Escrita acompanhe seu pedido">
+    <main>
+        <section class="conteiner">
+            <section class="l-banner-principal">
+                <img src="../img/banner-Principal.png" alt="">
+            </section>
+            <h1 class="c-status-titlle">Ordem Pedido</h1>
+                <div class="container-section__information">
+                    <div  class="c-information pedido">
+                        <p class="c-server-option">Número do Pedido</p>
+                        <p class="c-customer-request">5000</p>
+                    </div>
+                    <div class="c-information client">
+                        <p class="c-server-option">Cliente</p>
+                        <p class="c-customer-request"> Antônio Carlos </p>
+                    </div>
+                    <div  class="c-information pedaços">
+                        <p class="c-server-option">Quantidade de Pedaços</p>
+                        <p class="c-customer-request"> 08 pedaços </p>
+                    </div>
+                    <div  class="c-information sabores">
+                        <p class="c-server-option">Sabores</p>
+                        <p class="c-customer-request">Portuguesa</p>
+                    </div>
+                    <div  class="c-information massa">
+                        <p class="c-server-option">Espessura da Massa</p>
+                        <p class="c-customer-request">Fina</p>
+                    </div>
+                    <div  class="c-information borda">
+                        <p class="c-server-option">Tipo de Borda</p>
+                        <p class="c-customer-request">Borda recheada</p>
+                    </div>
+                    <div  class="c-information borda-recheio">
+                        <p class="c-server-option">Recheio da Borda</p>
+                        <p class="c-customer-request">Catupiry</p>
+                    </div>
+                    <div  class="c-information adicionais">
+                        <p class="c-server-option">Adicionais</p>
+                        <p class="c-customer-request">Queijo provolone</p>
+                    </div>
+                    <div  class="c-information observacao">
+                        <p class="c-server-option">Observações</p>
+                        <p class="c-customer-request c-observation">Sem presunto</p>
+                    </div>
+                    <div  class="c-information time">
+                        <p class="c-server-option">Hora da Entrega</p>
+                        <p class="c-customer-request">45 minutos</p>
+                    </div>
+                </div>    
         </section>
-        <section class="l-container__delivery-status">
-            <div class="c-container-icon-text">
-                <img class="l-status__icon" src="../img/icon-aguardando-pagamento.png" alt="icone de um relógio">
-                <p>AGUARDANDO PAGAMENTO</p>
-            </div>
-            <div>
-                <img class="l-status__icon" src="../img/icon-preparando-pedido.png" alt="icone de uma mao segurando bandeja">
-                <p>PEDIDO SENDO PREPARADO</p>
-            </div>
-            <div>
-                <img class="l-status__icon" src="../img/icon-pedido-pronto.png" alt="icone correto">
-                <p>PEDIDO PRONTO</p>
-            </div>
-        </section>
-        <hr size="10" width="100%" color="white">
-        <section class="l-container__delivery-problem">
-            <div class="delivery-problem__box">
-                <p>Ops! Problemas com a loja? <br>
-                Entre em contato</p>
-                <button class="c-btn-seller">Falar com o vendedor</button>
-            </div>
-            <div class="delivery-problem__box"> 
-                <p>Para cancelamento do pedido, depois do pagamento o vendedor tera 5% do valor do pedido.</p>
-                <button class="c-btn-cancel" type="submit" value="cancel">Cancelar pedido</button>
-            </div>
-
-        </section>
-        <hr size="10" width="100%" color="white">
-        <section class="l-container__print-payment">
-            <p>Imprimir comprovante</p> 
-            <button class="c-btn-print">Comprovante do pedido</button>
-        </section>
-
     </main>
-    <!--Inicio Rodapé-->
     <footer>
         <!--Inicio do Rodapé-->
         <div class="conteiner">
@@ -102,7 +111,7 @@
             </div>
         </div>
     </footer>
-        <!--Fim do Rodapé-->
+    <!--Fim do Rodapé-->
 </body>
 
 </html>
